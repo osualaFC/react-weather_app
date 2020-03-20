@@ -8,7 +8,7 @@ body {
   font-family: 'montseratt', sans-serif;
 }
 .app {
-  background-image: url('https://www.google.com/url?sa=i&url=http%3A%2F%2Feskipaper.com%2Fweather-wallpaper-4.html&psig=AOvVaw2-_irH1hvXFgw6b7a4m0yD&ust=1584793005323000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCODUiZaEqegCFQAAAAAdAAAAABAD');
+  background-image: url('https://images.unsplash.com/photo-1530908295418-a12e326966ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease;
@@ -98,4 +98,13 @@ main {
   font-size: 48px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+.text{
+  font-family: 'Bigelow Rules';
+  font-size: 40px;
+  color: #0ccac4;
+}
+.text p{
+  font-size: 20px;
+  padding:30px
 }

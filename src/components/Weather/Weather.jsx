@@ -1,5 +1,7 @@
 import React, {useContext } from 'react'
 import { SearchWeatherContext } from '../../contexts/SearchWeatherContext'
+import Home from '../Home/Home'
+
 
 const Weather = () => {
 
@@ -13,7 +15,7 @@ console.log(weather)
             </div>
             <div className="weather">{weather.weather[0].description}</div>
         </div>
-         ) : ('')
+         ) : (<Home />)
     )
 }
 
